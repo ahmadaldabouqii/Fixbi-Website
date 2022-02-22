@@ -1,0 +1,76 @@
+.employee_img {
+  width: 100%;
+  height: 85vh;
+}
+
+.img-container {
+  background-image: url('../landing_page/employee.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .blackLayer {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+} */
+
+.img-heading {
+  color: #ffffff;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-search,
+.customMargin {
+  margin-right: 0.8em !important;
+}
+
+.search-form {
+  margin-top: -121px;
+}
+
+.form-control-ll {
+  border-radius: 50px !important;
+}
+
+@media all and (max-width: 550px) {
+  nav {
+    padding: 0.8em 1.5em !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .search-form {
+    margin-top: -100px !important;
+  }
+  .form-control-ll {
+    width: 100% !important;
+    padding: 1em;
+  }
+
+  .customMargin {
+    margin-right: 0 !important;
+  }
+
+  .form-control {
+    margin: 0.5em 0;
+  }
+}

@@ -51,3 +51,7 @@
     </div>
   </nav>
 </template>
+
+<style scoped>
+@import '../assets/styles/NavBar.css';
+</style>
