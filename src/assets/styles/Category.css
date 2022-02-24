@@ -1,0 +1,22 @@
+.categoriesHolder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  border-radius: 2em;
+  background-color: #e5e2e2;
+  width: 20%;
+}
+
+.title {
+  margin: 1em 0 0 0;
+  line-height: 3;
+}

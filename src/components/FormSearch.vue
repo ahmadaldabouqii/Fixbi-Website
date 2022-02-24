@@ -47,4 +47,29 @@
       </div>
     </form>
   </div>
+
+  <div class="two-buttons d-flex justify-content-center mt-4">
+    <button
+      class="btn btn-search active btn-l btn-lg btn-primary col-md-2 d-flex justify-content-center"
+      type="button"
+    >
+      <img
+        src="../assets/landing_page/EmergencyAlert.png"
+        alt=""
+        class="img-icons btn-search"
+      />
+      Emergency
+    </button>
+    <button
+      class="btn btn-l btn-lg btn-success col-md-2 d-flex justify-content-center"
+      type="button"
+    >
+      <img
+        src="../assets/landing_page/pharmacy.png"
+        alt=""
+        class="img-icons btn-search"
+      />
+      Pharmacy
+    </button>
+  </div>
 </template>

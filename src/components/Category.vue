@@ -1,22 +1,20 @@
 <template>
-  <div @mouseover="fetchCategories">Helloooo</div>
+  <div class="categoriesHolder">
+    <div v-for="d in categories" :key="d.id" class="category">
+      <img :src="require('../assets/' + d.icon)" :alt="d.title" />
+      <h4 class="title">{{ d.title }}</h4>
+      <a href="#">View Details</a>
+    </div>
+  </div>
 </template>
+
+<style scoped>
+@import '../assets/styles/Category.css';
+</style>
 
 <script>
 export default {
-  data() {
-    return {
-      Categories: '',
-    };
-  },
-
-  methods: {
-    async fetchCategories() {
-      const res = await fetch('../../Categories.json');
-      const data = await res.json();
-      const { ...Categories } = data;
-      this.Categories = Categories.Categories;
-    },
-  },
+  name: 'Category',
+  props: ['categories'],
 };
 </script>
