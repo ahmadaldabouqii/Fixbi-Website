@@ -48,7 +48,7 @@
     </form>
   </div>
 
-  <div class="two-buttons d-flex justify-content-center mt-4">
+  <div class="two-buttons d-flex justify-content-center">
     <button
       class="btn btn-search active btn-l btn-lg btn-primary col-md-2 d-flex justify-content-center"
       type="button"
@@ -73,3 +73,5 @@
     </button>
   </div>
 </template>
+
+<style></style>

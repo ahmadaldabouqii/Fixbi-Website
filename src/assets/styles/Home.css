@@ -53,6 +53,10 @@
   padding: 2em;
 }
 
+.two-buttons {
+  padding: 4em;
+}
+
 @media all and (max-width: 550px) {
   nav {
     padding: 0.8em 1.5em !important;
@@ -63,6 +67,7 @@
   .search-form {
     margin-top: -100px !important;
   }
+
   .form-control-ll {
     width: 100% !important;
     padding: 1em;
