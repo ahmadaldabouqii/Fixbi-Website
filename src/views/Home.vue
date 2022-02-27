@@ -10,22 +10,26 @@
     </div>
     <FormSearch />
     <Categories :categories="categories" />
+    <FeaturedProviders />
+    <NewProvider />
   </div>
 </template>
 
-<style scoped>
-@import '../assets/styles/Home.css';
-</style>
+<style scoped src="../assets/styles/Home.css"></style>
 
 <script>
-import FormSearch from '../components/FormSearch';
-import Categories from '../components/Categories';
+import FormSearch from '../components/Home/FormSearch';
+import Categories from '../components/Home/Categories';
+import FeaturedProviders from '../components/Home/FeaturedProviders';
+import NewProvider from '../components/Home/NewProvider';
 
 export default {
   name: 'Home',
   components: {
     FormSearch,
     Categories,
+    FeaturedProviders,
+    NewProvider,
   },
 
   data() {

@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <router-link class="navbar-brand" to="/"
-      >&nbsp;&nbsp;<img src="../assets/landing_page/FixBi-Logo.jpg" alt=""
+      >&nbsp;&nbsp;<img
+        src="../../assets/landing_page/FixBi-Logo.jpg"
+        alt="logo"
     /></router-link>
     <button
       class="navbar-toggler"
@@ -40,7 +42,7 @@
       </ul>
       <form class="form-inline">
         <button class="btn btn-sm btn-outline-primary text-dark" type="button">
-          <img src="../assets/landing_page/pdf.png" alt="" /> Download Pdf
+          <img src="../../assets/landing_page/pdf.png" alt="" /> Download Pdf
         </button>
         &nbsp;
         <button class="btn btn-sm btn-success" type="button">
@@ -52,6 +54,4 @@
   </nav>
 </template>
 
-<style scoped>
-@import '../assets/styles/NavBar.css';
-</style>
+<style scoped src="../../assets/styles/NavBar.css"></style>

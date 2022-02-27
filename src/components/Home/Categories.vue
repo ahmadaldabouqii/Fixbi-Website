@@ -14,9 +14,11 @@
   text-align: center;
   padding: 4em;
 }
+
 h1 {
   color: #242635;
 }
+
 p {
   color: #6d7783;
   font-size: 1.1em;
@@ -25,7 +27,7 @@ p {
 </style>
 
 <script>
-import Category from '../components/Category';
+import Category from './Category';
 
 export default {
   name: 'Categories',
