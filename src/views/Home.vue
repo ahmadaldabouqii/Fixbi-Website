@@ -12,6 +12,7 @@
     <Categories :categories="categories" />
     <FeaturedProviders />
     <NewProvider />
+    <WhatPeoplesSay />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import FormSearch from '../components/Home/FormSearch';
 import Categories from '../components/Home/Categories';
 import FeaturedProviders from '../components/Home/FeaturedProviders';
 import NewProvider from '../components/Home/NewProvider';
+import WhatPeoplesSay from '../components/Home/WhatPeoplesSay';
 
 export default {
   name: 'Home',
@@ -30,6 +32,7 @@ export default {
     Categories,
     FeaturedProviders,
     NewProvider,
+    WhatPeoplesSay,
   },
 
   data() {

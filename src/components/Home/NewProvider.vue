@@ -6,18 +6,21 @@
       :email="`mail@gmail.com`"
       :memberFrom="`February 12, 2021`"
       :views="3"
+      :image="require('../../assets/landing_page/provider_1.png')"
     />
     <NewProviderCard
       :name="`Michel Scofield`"
       :email="`mail@gmail.com`"
       :memberFrom="`February 12, 2021`"
       :views="4"
+      :image="require('../../assets/landing_page/provider_2.png')"
     />
     <NewProviderCard
       :name="`Alexander Mahone`"
       :email="`mail@gmail.com`"
       :memberFrom="`February 12, 2021`"
       :views="5"
+      :image="require('../../assets/landing_page/provider_3.png')"
     />
   </div>
 </template>

@@ -1,11 +1,7 @@
 <template>
   <div class="card cardHolder" style="width: 20rem">
     <div class="row justify-content-center">
-      <img
-        class="client-img"
-        src="../../assets/landing_page/provider_1.png"
-        alt="Card image cap"
-      />
+      <img class="client-img" :src="image" alt="Card image cap" />
     </div>
     <div class="card-body">
       <div class="col-md-12">
@@ -37,6 +33,7 @@ export default {
     memberFrom: String,
     name: String,
     email: String,
+    image: String,
   },
 };
 </script>
