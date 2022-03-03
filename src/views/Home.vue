@@ -13,6 +13,7 @@
     <FeaturedProviders />
     <NewProvider />
     <WhatPeoplesSay />
+    <ArticlesAndTips />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import Categories from '../components/Home/Categories';
 import FeaturedProviders from '../components/Home/FeaturedProviders';
 import NewProvider from '../components/Home/NewProvider';
 import WhatPeoplesSay from '../components/Home/WhatPeoplesSay';
+import ArticlesAndTips from '../components/Home/Articles';
 
 export default {
   name: 'Home',
@@ -33,6 +35,7 @@ export default {
     FeaturedProviders,
     NewProvider,
     WhatPeoplesSay,
+    ArticlesAndTips,
   },
 
   data() {
